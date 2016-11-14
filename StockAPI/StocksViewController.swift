@@ -37,7 +37,7 @@ class StocksViewController: UIViewController, UITableViewDataSource, UITableView
         
         
     }
-        var stocks: [(String,Double)] = [("AAPL",0.0),("GOOG",0.0),("HAL",0.0),("YHOO",0.0),("TSLA",0.0),("TSLA",0.0),("T",0.0),("NBL",0.0),("APC",0.0),("CPE",0.0),("ANF",0.0)]
+        var stocks: [(String,Double)] = [("YHOO",0.0),("AAPL",0.0),("TSLA",0.0),("NBL",0.0),("APC",0.0),("HAL",0.0)]
 
     @IBOutlet weak var tableView: UITableView!
     
